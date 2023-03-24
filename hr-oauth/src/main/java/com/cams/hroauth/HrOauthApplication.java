@@ -12,6 +12,7 @@ public class HrOauthApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HrOauthApplication.class, args);
+		System.setProperty("spring.application.name", "reporting-engine");
 	}
 
 }
